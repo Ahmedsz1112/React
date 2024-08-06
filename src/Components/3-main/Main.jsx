@@ -13,7 +13,7 @@ const Main = () => {
             </section>
 
             <section className="rigth-section flex">
-                {["aa" , "vv", "sd"].map((item) => {
+                {["aa" , "vv", "sd" , 1 , 2, 4].map((item) => {
                     return (
                         <article key={item} className="card">
                             <img width={266} src="1.jpg" alt="" />

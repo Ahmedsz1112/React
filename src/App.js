@@ -10,7 +10,7 @@ import Footer from './Components/5-footer/Footer';
 function App() {
 
     return (
-          <div className="container">
+          <div className="container" id='up'>
               <Header/>
               <Hero />
               <div className='divider'/>
@@ -19,6 +19,10 @@ function App() {
               <Contact/>
               <div className='divider'/>
               <Footer/>
+
+              <a href='#up'>
+                <button className='scrollTotop fa-solid fa-angle-up'/>
+              </a>
           </div>
     );
   }
