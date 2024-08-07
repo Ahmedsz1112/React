@@ -6,7 +6,7 @@ const Hero = () => {
         <section className="hero flex">
             <div className="left-section">
                 <div className="parent-avatar flex">
-                    <img src="./avatar.jpg" className="avatar" alt="" />
+                    <img src="/React/public/avatar.jpg" className="avatar" alt="" />
                     <div className="fa-solid fa-circle-check" />
                 </div>
                 <h1 className="title">Software designer, founder, and amateur astronaut.</h1>
